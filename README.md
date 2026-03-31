@@ -22,24 +22,8 @@ The system processes PDF documents, builds a searchable knowledge index, retriev
 
 The application follows a **Retrieval-Augmented Generation pipeline**:
 
-```
-User Query
-    │
-    ▼
-Streamlit Interface
-    │
-    ▼
-LlamaIndex Retrieval Engine
-    │
-    ▼
-Relevant Document Chunks
-    │
-    ▼
-Google Gemini LLM
-    │
-    ▼
-Generated Answer
-```
+<img width="1114" height="743" alt="image" src="https://github.com/user-attachments/assets/e69bcfa2-47fb-45f8-9abb-9982b3cf9a15" />
+
 
 ---
 
